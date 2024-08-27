@@ -1,0 +1,52 @@
+title       = "Sigil User Guide"
+description = "A test course built using the Sigil User Guide as an example."
+
+[[books]]
+label = "Book 1"
+file  = "/Sigil_User_Guide_2024.08.15"
+
+[[books.chapters]]
+root = "Text/installation.xhtml"
+
+[[books.chapters]]
+root = "Text/tutorials.xhtml"
+
+[[books.chapters.groups]]
+sections = [
+	"Text/tutorial_getting_started_with_epub.xhtml",
+	"Text/tutorial_convert_to_html.xhtml",
+	"Text/tutorial_load_file.xhtml",
+	"Text/tutorial_save.xhtml",
+]
+weight = 2
+
+[[books.chapters.groups]]
+sections = [
+	"Text/tutorial_metadata.xhtml",
+	"Text/tutorial_add_cover.xhtml",
+]
+
+[[books.chapters.groups]]
+sections = [
+	"Text/tutorial_split.xhtml",
+	"Text/tutorial_mark_chapters.xhtml",
+	"Text/tutorial_generate_toc.xhtml",
+	"Text/tutorial_links.xhtml",
+]
+weight = 2
+
+[[books.chapters.groups]]
+sections = [
+	"Text/tutorial_code_view.xhtml",
+	"Text/tutorial_spelling.xhtml",
+	"Text/tutorial_find_replace.xhtml",
+	"Text/tutorial_stylesheets.xhtml",
+	"Text/tutorial_embed_fonts.xhtml",
+]
+weight = 2.5
+
+[[books.chapters.groups]]
+sections = [
+	"Text/tutorial_advanced_find.xhtml",
+	"Text/tutorial_tips.xhtml",
+]
